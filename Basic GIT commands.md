@@ -1,4 +1,4 @@
-1) git clone  [url]      retrieve an entire repositoryfrom a hosted   location via url         ( to download the entire repository )
+1) git clone  [url]      retrieve an entire repository from a hosted location via url ( to download the entire repository )
 2) git pull              ( to download just the changes that your don't have ) 
 3) git commit -m "msg"   ( before you push anything, make sure you tell what you're doing in the commit msg ) 
 4) git push              ( Publishes the changes to your repo )
