@@ -10,6 +10,6 @@ Functional Requirement : Know driving a car Non-Fucntional Requirement : Knowing
 
 Any coding standards should fulfil all of this ( NFR )
 
-Code should always be dry ( That means there should no repeatable code )
-Secrets should not hardcoded in the code ( Usernames & Password should never be inside the code )
-When you run the same code more than once, it should not fail
+1) Code should always be dry ( That means there should no repeatable code )
+2) Secrets should not hardcoded in the code ( Usernames & Password should never be inside the code )
+3) When you run the same code more than once, it should not fail
