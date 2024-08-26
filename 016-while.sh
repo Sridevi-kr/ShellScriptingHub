@@ -3,8 +3,8 @@
 #while Exression ;
 #    commands to execute
 #done
-
-while true ; do
+var = $1
+while $var == 10 ; do
     echo -e "\t \n While Loop Example"
-    sleep 0.3
+    exit
 done 
