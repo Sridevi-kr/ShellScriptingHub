@@ -3,9 +3,9 @@
 #while Exression ;
 #    commands to execute
 #done
-var = $1
-while [$var == 10] 
+var1=$1
+while [ $var1 -eq 10 ] 
 do
     echo -e "\t \n While Loop Example"
-    exit
+    break
 done 
