@@ -18,6 +18,9 @@ ACTION=$1 # $1 is command line parameter fist argument
 #     echo -e "\e[31m start is valid option \e[0m"
 #     exit 3
 # fi  
+# check the exit code vakue using $?
+
+
 
 # Demo on else 
 if [ "$ACTION" = "start" ] ; then 
