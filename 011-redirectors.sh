@@ -36,3 +36,6 @@
 
 # to input the standard error into an existing file we use 2>> (appends the exisitng value)
 #$ lss -ltr 2>> ap.log
+
+# to nullify a file redirect it to /dev/null
+#ls -ltr > /dev/null
